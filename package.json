@@ -1,0 +1,28 @@
+{
+  "name": "pino-logger",
+  "version": "1.0.0",
+  "description": "Javascript logger wrapper using pino",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "postinstall": "npm install @yjjnls/pino @yjjnls/pino-pretty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjjnls/logger-js.git"
+  },
+  "keywords": [
+    "pino",
+    "logger"
+  ],
+  "author": "yjjnls",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/yjjnls/logger-js/issues"
+  },
+  "homepage": "https://github.com/yjjnls/logger-js#readme",
+  "dependencies": {
+    "@yjjnls/pino": "^5.14.1",
+    "@yjjnls/pino-pretty": "^3.5.1"
+  }
+}
